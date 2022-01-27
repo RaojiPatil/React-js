@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "webpack-demo",
   "version": "1.0.0",
   "description": "All React files",
   "main": "index.js",
