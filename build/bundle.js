@@ -7,90 +7,26 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
-
-/***/ "./src/cal.js":
-/*!********************!*\
-  !*** ./src/cal.js ***!
-  \********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"add\": () => (/* binding */ add)\n/* harmony export */ });\nfunction add(fir, sec) {\r\n    return fir + sec;\r\n}\r\n\n\n//# sourceURL=webpack://webpack-demo/./src/cal.js?");
-
-/***/ }),
 
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cal_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cal.js */ \"./src/cal.js\");\n\r\n\r\n\r\nconsole.log((0,_cal_js__WEBPACK_IMPORTED_MODULE_0__.add)(5, 5));\r\n\r\n\r\nconst h1 = document.createElement(\"h1\");\r\nh1.classList.add(\"redtext\");\r\ndocument.getElementById(\"root\").appendChild(h1);\r\n\r\n\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: Unknown option: .presert. Check out https://babeljs.io/docs/en/babel-core/#options for more information about options.\\n    at throwUnknownError (C:\\\\Users\\\\admin\\\\OneDrive\\\\Desktop\\\\React-js\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\validation\\\\options.js:133:27)\\n    at C:\\\\Users\\\\admin\\\\OneDrive\\\\Desktop\\\\React-js\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\validation\\\\options.js:118:5\\n    at Array.forEach (<anonymous>)\\n    at validateNested (C:\\\\Users\\\\admin\\\\OneDrive\\\\Desktop\\\\React-js\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\validation\\\\options.js:94:21)\\n    at validate (C:\\\\Users\\\\admin\\\\OneDrive\\\\Desktop\\\\React-js\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\validation\\\\options.js:85:10)\\n    at C:\\\\Users\\\\admin\\\\OneDrive\\\\Desktop\\\\React-js\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-chain.js:209:34\\n    at cachedFunction (C:\\\\Users\\\\admin\\\\OneDrive\\\\Desktop\\\\React-js\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\caching.js:60:27)\\n    at cachedFunction.next (<anonymous>)\\n    at evaluateSync (C:\\\\Users\\\\admin\\\\OneDrive\\\\Desktop\\\\React-js\\\\node_modules\\\\gensync\\\\index.js:251:28)\\n    at sync (C:\\\\Users\\\\admin\\\\OneDrive\\\\Desktop\\\\React-js\\\\node_modules\\\\gensync\\\\index.js:89:14)\");\n\n//# sourceURL=webpack://react/./src/index.js?");
 
 /***/ })
 
 /******/ 	});
 /************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/index.js"]();
 /******/ 	
 /******/ })()
 ;

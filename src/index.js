@@ -1,11 +1,18 @@
 import { add } from "./cal.js"
+import "./style.css";
 
+import React from "react";
+import ReactDOM from "react-dom";
 
 console.log(add(5, 5));
 
 
-const h1 = document.createElement("h1");
-h1.classList.add("redtext");
-h1.innerText = "Hello Word";
-document.getElementById("root").appendChild(h1);
 
+ReactDOM.render (
+    <h1 className="redtext">
+   <div>hello</div>
+    </h1>,
+    document.getElementById("root")
+);
+
+// @babel/core @babel/node @babel/preset-env @babel/preset-react babel-loader
